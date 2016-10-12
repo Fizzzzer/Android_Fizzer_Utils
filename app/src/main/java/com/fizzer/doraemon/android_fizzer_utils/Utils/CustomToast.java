@@ -69,7 +69,7 @@ public class CustomToast {
      */
     public static void showToast(Context context,String title,String content){
         myToast = getMyToast(context,title,content);
-        myToast.setDuration(Toast.LENGTH_LONG);
+        myToast.setDuration(Toast.LENGTH_SHORT);
         myToast.setGravity(Gravity.CENTER,0,0); //设置Toast在界面的显示位置,这里显示在中间
         myToast.show();
     }

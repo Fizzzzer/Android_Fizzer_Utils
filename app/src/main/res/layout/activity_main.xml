@@ -11,5 +11,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="customToast"
-        android:text="测试CustomeToast效果"/>
+        android:text="@string/CustomToast"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="customDialog"
+        android:text="@string/CustomDialog"/>
 </LinearLayout>
