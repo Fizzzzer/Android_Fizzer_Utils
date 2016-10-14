@@ -2,4 +2,5 @@
     <string name="app_name">Android_Fizzer_Utils</string>
     <string name="CustomToast">测试CustomToast效果</string>
     <string name="CustomDialog">测试CustomDialog效果</string>
+    <string name="LoadingDialog">测试LoadingDialog效果</string>
 </resources>

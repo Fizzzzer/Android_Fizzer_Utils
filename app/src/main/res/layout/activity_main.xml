@@ -18,4 +18,11 @@
         android:layout_height="wrap_content"
         android:onClick="customDialog"
         android:text="@string/CustomDialog"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="loadingDialog"
+        android:text="@string/CustomDialog"/>
+
 </LinearLayout>

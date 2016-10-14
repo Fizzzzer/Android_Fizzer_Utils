@@ -1,15 +1,14 @@
 package com.fizzer.doraemon.android_fizzer_utils.Activity;
 
-import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 import com.fizzer.doraemon.android_fizzer_utils.R;
 import com.fizzer.doraemon.android_fizzer_utils.Utils.CustomDialog;
 import com.fizzer.doraemon.android_fizzer_utils.Utils.CustomToast;
 
-public class MainActivity extends Activity {
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +37,11 @@ public class MainActivity extends Activity {
             }
         });
         dialog.show();
+    }
+
+    public void loadingDialog(View view){
+
+        startActivity(new Intent(this,LoadingActivity.class));
     }
 
 }
