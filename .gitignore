@@ -41,3 +41,7 @@ out/
 build/
 .settings/
 proguard/
+*.gradle
+tasks/
+*.idea
+build/
