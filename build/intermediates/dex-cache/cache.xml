@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="/Users/Doraemon/Documents/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_1f24da2d3426e6655c8f27cee847065a525cc79e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -30,48 +21,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_afba0254cf27b65efe7c73bf35170d03047bb0b6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3fb2ca847ed0dd2db6a248f8e3d5f9170de05930">
-        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9aa1ea78a9e7876c58e6d71a69e050ed016cdb97/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_0cdcb11d2b949bb030192b324c8846cc27f4059d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
         <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_ee0726148ab9e2078ff177315299357e619994b3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_7765547f82d6ec9d70861becc0478813af447801/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,15 +48,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_e2f70365185e0c6ed3681903a5b2e7becc1650a4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
@@ -111,11 +57,83 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_70ce084af1a5f50bf5a5c9c3a5162891281a28b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_06f4f0dd2013d5da2dd220c612194d22455985fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Doraemon/Documents/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_1f24da2d3426e6655c8f27cee847065a525cc79e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_afba0254cf27b65efe7c73bf35170d03047bb0b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="15a4c5529179b55c8af9ae04bcfea5a8675643c3">
+        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9aa1ea78a9e7876c58e6d71a69e050ed016cdb97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_0cdcb11d2b949bb030192b324c8846cc27f4059d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_7765547f82d6ec9d70861becc0478813af447801/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_e2f70365185e0c6ed3681903a5b2e7becc1650a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
-        sha1="6638c51078d41d3747ab4af8db2c582a87cd524a">
+        sha1="afeae44d52474901506177fe069d0f17cf07bf57">
         <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c36a507ff90d5668c4a9c0f8013effed1ab3e042/classes.dex" />
     </item>
     <item
@@ -129,30 +147,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_70ce084af1a5f50bf5a5c9c3a5162891281a28b7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.1"
         sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
         <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_5c37b2911ee9d9233c0817a9c5c7456ab82b2ca0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="/Users/Doraemon/Documents/Coding/Android_Fizzer_Utils/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_06f4f0dd2013d5da2dd220c612194d22455985fc/classes.dex" />
     </item>
 
 </items>
