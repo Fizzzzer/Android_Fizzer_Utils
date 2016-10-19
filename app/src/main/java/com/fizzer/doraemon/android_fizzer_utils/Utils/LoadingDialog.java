@@ -4,7 +4,6 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.Animation;
-import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
@@ -42,8 +41,8 @@ public class LoadingDialog extends LinearLayout {
     private void init(Context context) {
         View loadingView = View.inflate(context, R.layout.loading_layout, null);
         ivLoading = (ImageView) loadingView.findViewById(R.id.ivLoading);
-//        setLoadingAnimation();
-        setScaleAnimation();
+        setLoadingAnimation();
+//        setScaleAnimation();
         this.addView(loadingView, LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
     }
 
