@@ -43,4 +43,10 @@
         android:onClick="notification"
         android:text="测试通知"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试滚动文字"
+        android:onClick="scroolTextView"/>
+
 </LinearLayout>
