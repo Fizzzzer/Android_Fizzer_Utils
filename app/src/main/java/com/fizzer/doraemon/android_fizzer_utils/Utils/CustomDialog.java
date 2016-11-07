@@ -91,6 +91,7 @@ public class CustomDialog {
      */
     public void show() {
         if (mDialog != null && !mDialog.isShowing()) {
+            mDialog.getWindow().setWindowAnimations(R.style.DialogOutAndInStyle);   //设置dialog的显示动画
             mDialog.show();
         }
     }

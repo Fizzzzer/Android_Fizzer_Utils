@@ -3,6 +3,7 @@
     package="com.fizzer.doraemon.android_fizzer_utils">
 
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
 
     <application
         android:allowBackup="true"
@@ -20,6 +21,8 @@
         <activity android:name=".Activity.LoadingActivity" />
         <activity android:name=".Activity.DateTransfromTest" />
         <activity android:name=".Activity.ViewScroolTest"></activity>
+
+        <service android:name=".Services.MyServices"/>
     </application>
 
 </manifest>
