@@ -5,8 +5,11 @@ import android.app.ActivityManager;
 import android.app.Service;
 import android.content.ClipboardManager;
 import android.content.Context;
+import android.content.Intent;
+import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
@@ -16,6 +19,7 @@ import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
+import android.net.Uri;
 import android.os.Environment;
 import android.os.Vibrator;
 import android.telephony.TelephonyManager;
@@ -38,6 +42,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -830,5 +835,41 @@ public class CommUtils {
             }
         }
         return isAppRunning;
+    }
+
+    /**
+     * 获取安装的应用市场列表
+     * @param context
+     */
+    public void getMarketList(Context context) {
+        Intent intent = new Intent();
+        intent.setData(Uri.parse("market://details?id=android.browser"));
+        List<ResolveInfo> list = context.getPackageManager().queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
+
+        for (ResolveInfo info : list) {
+            Logger.myLogger(info.resolvePackageName);
+        }
+    }
+
+    /**
+     * 获取安装的app list
+     */
+    public void getAppList() {
+        PackageManager pm = context.getPackageManager();
+        // Return a List of all packages that are installed on the device.
+        List<PackageInfo> packages = pm.getInstalledPackages(0);
+
+        List<String> packageName = new ArrayList<>();
+
+        for (PackageInfo packageInfo : packages) {
+            // 判断系统/非系统应用
+            if ((packageInfo.applicationInfo.flags & ApplicationInfo.FLAG_SYSTEM) == 0) { // 非系统应用
+                packageName.add(packageInfo.packageName);
+            }
+        }
+
+        for (String name : packageName) {
+            Logger.myLogger(name);
+        }
     }
 }

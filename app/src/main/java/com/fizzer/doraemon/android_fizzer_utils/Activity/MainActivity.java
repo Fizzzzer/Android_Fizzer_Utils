@@ -2,26 +2,15 @@ package com.fizzer.doraemon.android_fizzer_utils.Activity;
 
 import android.app.Notification;
 import android.app.NotificationManager;
-import android.app.PendingIntent;
-import android.content.Context;
 import android.content.Intent;
-import android.content.pm.ApplicationInfo;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
 import com.fizzer.doraemon.android_fizzer_utils.R;
 import com.fizzer.doraemon.android_fizzer_utils.Services.MyServices;
-import com.fizzer.doraemon.android_fizzer_utils.Utils.ActiveUtils;
 import com.fizzer.doraemon.android_fizzer_utils.Utils.CustomDialog;
 import com.fizzer.doraemon.android_fizzer_utils.Utils.CustomToast;
-import com.fizzer.doraemon.android_fizzer_utils.Utils.Logger;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends BaseActivity {
 
@@ -97,23 +86,6 @@ public class MainActivity extends BaseActivity {
     }
 
     public void notification(View view) {
-//        PendingIntent pi = PendingIntent.getActivities(this,0, new Intent[]{new Intent(this, MainActivity.class)},0);
-//
-//        Notification.Builder notification = new Notification.Builder(this).setSmallIcon(R.mipmap.ic_launcher);
-
-//        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, new Intent(this, LoadingActivity.class), 0);
-//
-//        Notification notify = new Notification.Builder(this)
-//                .setSmallIcon(R.mipmap.ic_launcher) // 设置状态栏中的小图片，尺寸一般建议在24×24， 这里也可以设置大图标
-//                .setTicker("有新短消息了！")// 设置显示的提示文字
-//                .setContentTitle("标题")// 设置显示的标题
-//                .setContentText("消息的内容")// 消息的详细内容
-//                .setContentIntent(pendingIntent) // 关联PendingIntent
-//                .setNumber(5) // 在TextView的右方显示的数字，可以在外部定义一个变量，点击累加setNumber(count),这时显示的和
-//                .getNotification(); // 需要注意build()是在API level16及之后增加的，在API11中可以使用getNotificatin()来代替
-//        notify.flags |= Notification.FLAG_AUTO_CANCEL;
-//        NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-//        manager.notify(0, notify);
 
         final NotificationManager manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         long[] vir = {0, 100};
@@ -139,36 +111,6 @@ public class MainActivity extends BaseActivity {
 
             }
         }).start();
-    }
-
-
-    public void getMarketList() {
-        Intent intent = new Intent();
-        intent.setData(Uri.parse("market://details?id=android.browser"));
-        List<ResolveInfo> list = getPackageManager().queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
-
-        for (ResolveInfo info : list) {
-            Logger.myLogger(info.resolvePackageName);
-        }
-    }
-
-    public void getAppList() {
-        PackageManager pm = this.getPackageManager();
-        // Return a List of all packages that are installed on the device.
-        List<PackageInfo> packages = pm.getInstalledPackages(0);
-
-        List<String> packageName = new ArrayList<>();
-
-        for (PackageInfo packageInfo : packages) {
-            // 判断系统/非系统应用
-            if ((packageInfo.applicationInfo.flags & ApplicationInfo.FLAG_SYSTEM) == 0) { // 非系统应用
-                packageName.add(packageInfo.packageName);
-            }
-        }
-
-        for (String name : packageName) {
-            Logger.myLogger(name);
-        }
     }
 
     public void scroolTextView(View view) {
